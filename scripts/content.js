@@ -11,7 +11,7 @@ function removeFromSidebar() {
     // remove shorts element from the sidebar
     shorts_elements.forEach(el => {
         // remove the parent entry element
-        el.closest('ytd-mini-guide-entry-renderer')?.remove();
+        el.closest('ytd-mini-guide-entry-renderer, a#endpoint.yt-simple-endpoint.style-scope.ytd-guide-entry-renderer')?.remove();
     });
 }
 
