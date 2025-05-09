@@ -3,7 +3,6 @@
   "name": "YT Shorts Remover",
   "version": "2.0",
   "description": "Removes Shorts from YouTube pages",
-  "permissions": ["scripting", "tabs"],
   "host_permissions": ["https://www.youtube.com/*"],
   "content_scripts": [
     {
